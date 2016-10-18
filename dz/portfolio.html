@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<title>
+сайт
+</title>
+<meta charset="utf-8">
+<link
+	rel="stylesheet" href="css/style2.css" type="text/css" />
+	<script src="jquery-1.10.2.js"></script>
+	
+</head>
+<body>
+<div class="wrapper">
+							<!-- menu_top -->
+	<div class="menu-top">
+		<a href="index.html"><button class="btn1">Резюме</button></a>
+		<button class="btn2">Портфолио</button>
+	</div>
+							<!-- menu_top -->
+							<!-- PORTFOLIO --> 
+	<div class="portfolio">
+		<a href="my works/work1/index.html" target="_blank"><div class="work1"><div id="hover1"></div></div></a>
+		<a href="my works/work2/index.html" target="_blank"><div class="work2"><div id="hover2"></div></div></a>
+		<a href="my works/work3/index.html" target="_blank"><div class="work3"><div id="hover3"></div></div></a>
+		<a href="my works/work4/index.html" target="_blank"><div class="work4"><div id="hover4"></div></div></a>
+		<a href="my works/work5/index.html" target="_blank"><div class="work5"><div id="hover5"></div></div></a>
+	</div>
+							<!-- PORTFOLIO --> 
+</div>
+<script>
+    $(function () {
+        $(".work1,.work2,.work3,.work4,.work5").animate(
+            {
+                width:'270px',
+				height:'221px'
+            }, 2000);
+        });
+</script>
+
+</body>
+</html>
